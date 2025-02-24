@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h3 class="animate-charcter"> AGE - CALCULATOR </h3>
+      </div>
+    </div>
+    <!-- <h1>AGE CALCULATOR</h1> -->
+    <div class="section">
+      <h2>TODAY'S DATE</h2>
+      <div class="date-input">
+        <input type="number" id="todayDay" placeholder="Day">
+        <input type="number" id="todayMonth" placeholder="Month">
+        <input type="number" id="todayYear" placeholder="Year">
+      </div>
+    </div>
+    <div class="section">
+      <h2>PLEASE ENTER YOUR BIRTH DATE</h2>
+      <div class="date-input">
+        <input type="number" id="birthDay" placeholder="Day">
+        <input type="number" id="birthMonth" placeholder="Month">
+        <input type="number" id="birthYear" placeholder="Year">
+      </div>
+    </div>
+    <div id="btnid">
+        <div class="btnposition">
+          <button class="btn" onclick="calculateAge()">CALCULATE</button> 
+        </div>
+          <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

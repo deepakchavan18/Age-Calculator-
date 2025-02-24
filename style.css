@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9b9b9;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 25rem;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .container {
+    background-color: #fff;
+    height: 50vh;
+    width: 75vh;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+  h1{
+    color: red;
+    text-decoration: underline;
+  }
+  .animate-charcter
+  {
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 1.5rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.text-center{
+  margin: 0%;
+}
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btnid{
+    display: block  ;
+    align-items:center;
+    justify-content: center;
+  }
+
+  #result{
+    margin-top:1.9rem ;
+    color:#176cff;
+    font-weight: 600;
+    display: flex  ;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .btn{
+    padding: 0.4rem;
+    border: 2px solid black;
+    border-radius:1rem;
+    background-color: rgb(7, 95, 238);
+    color: rgb(255, 255, 255);
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    background-color: rgb(2, 169, 2);
+    text-decoration-line: underline;
+  }
+  
+  .btnposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .date-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .date-input input {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .result{
+    display: block;
+    font-size: 1.2rem;
+
+  }
+  
